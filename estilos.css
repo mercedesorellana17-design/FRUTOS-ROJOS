@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&family=Rancho&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*font-family: "Rancho", cursive;*/
+/*font-family: "Roboto", sans-serif;*/
+	
+ *{margin: 0px;
+	border: 0px;
+	padding: 0px;	
+}
+
+#redes {/* comienza degradado */
+background: linear-gradient(to bottom,  rgba(206,41,79,0.8) 0%,rgba(252,248,247,0.8) 100%); /* cierra degradado */
+
+	width:100%;
+	height: 35px;
+	
+}
+body{    background-image: url(img/fondo3.jpg);
+}
+#redes ul{
+	width:900px;
+	margin:auto;
+	border: solid blue 1px;
+}
+#redes ul li{
+	width:35px	/*border solid red 1px;*/;
+	float: left;
+	list-style-type:none;
+}
+#contenedor{
+	 width: 900px;
+    margin: auto;
+    height: auto;
+   }
+#encabezado{
+    height: 206px;
+    background-image: url(img/header.jpg);	
+	
+}
+#botonera{
+	height: 50px;
+	/* comienza degradado */
+background: linear-gradient(to bottom,  rgba(206,41,79,1) 0%,rgba(252,248,247,1) 100%); /* cierra degradado */
+}
+#botonera ul li{
+	width: 223px;
+	border: solid 1px white;
+	float: left;
+	text-align: center;
+	line-height:48px;
+	list-style-type: none;
+	
+}
+#botonera ul li a{
+	font-family: "Rancho", cursive;
+	font-size:20px;
+	color:rgba(255,255,255,1.00);
+	text-transform: uppercase;
+	text-decoration:none;
+	font-weight:600;
+}
+#botonera ul li a:hover{	
+  text-shadow: 1px 2px 2px rgba(10, 10, 10, 0.83);
+}
+#centro{
+    height: 400px;
+    background-color: rgba(237,237,237,0.55);	
+}
+.cajas{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgba(0,0,0,0.3);
+	box-shadow: 8px 6px 0px 0px rgba(0, 0, 0, 0.11);
+    float: left;
+    margin-top: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: rgba(66,11,167,0.51);
+	transition: trqansform 0.1s esse;
+}
+.cajas:hover {box-shadow: 8px 6px 42px 115px rgba(212, 42, 42, 0.11);
+transform:scale(1.2);}
+.cajas h3{
+    font-family: "Rancho", cursive;
+    font-size: 30px;
+    font-weint: 600;
+    text-align: center;
+    text-shadow: -19px 3px 0px rgba(12, 242, 166, 0.3);
+    color: rgba(0,0,0,0.95);
+}
+.cajas h3:hover{ text-shadow: -3px 3px 0px rgba(21, 6, 120, 0.3);}
+.cajas p {
+	font-family:"Roboto Flex", sans-serif;	
+	font-size:14px;
+	line-height:20 px; 
+    text-align: justify;
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 5px;
+	}
+	#pie {
+		height:30px;
+		background:linear-gradient(to bottom,  rgba(206,41,79,0.8) 0%,rgba(252,248,247,0.8) 100%);
+		font-family:"Rancho", cursive;
+		font-size:20px;
+		color:rgba(85,46,46,1.00);
+		font-weight:600;
+		text-align: center;
+		line-height:30px;
+	}
+	
+		
+		
